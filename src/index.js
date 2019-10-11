@@ -5,6 +5,6 @@ import ReactDOM from 'react-dom';
 import LOGO from '../images/logo.png';
 
 const Index = () => {
-    return <img src={LOGO} alt="Logo" />;
+    return <h1>Université Claude Bernard Lyon 1</h1>;
 };
 ReactDOM.render(<Index />, document.getElementById('root'));
