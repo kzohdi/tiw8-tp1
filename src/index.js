@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-// Import de l'image
-import LOGO from '../images/logo.png';
-
+import Header from './components/Header/index.jsx';
+import Content from './components/Content/index.jsx';
 const Index = () => {
-    return <h1>Université Claude Bernard Lyon 1</h1>;
+    return (
+        <div className="container">
+            <Header />
+            <Content />
+        </div>
+    );
 };
 ReactDOM.render(<Index />, document.getElementById('root'));
